@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        quality=DVD hidden form element - primewire.tf
+// @name        primewire.tf DVD quality checkbox
 // @namespace   Violentmonkey Scripts
 // @match       https://www.primewire.tf/*
 // @grant       none
