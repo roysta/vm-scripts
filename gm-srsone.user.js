@@ -2,6 +2,7 @@
 // @name        srsone.wf new episodes incrementer
 // @namespace   Violentmonkey Scripts
 // @match       https://srsone.wf/new-shows
+// @include     https://srsone.wf/new-shows/*
 // @grant       none
 // @version     1.0.1
 // @author      -
