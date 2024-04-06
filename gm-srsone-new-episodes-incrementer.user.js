@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        srsone.wf new episodes incrementer
+// @name        srsone new episodes incrementer
 // @namespace   Violentmonkey Scripts
 // @match       https://srsone.wf/new-shows
 // @include     https://srsone.wf/new-shows/*
 // @grant       none
-// @version     1.0.3
+// @version     1.1.0
 // @author      roysta
 // @description 06/04/2024, 20:39:29
 // ==/UserScript==
