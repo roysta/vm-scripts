@@ -4,8 +4,8 @@
 // @match       https://srsone.wf/new-shows
 // @include     https://srsone.wf/new-shows/*
 // @grant       none
-// @version     1.0.2
-// @author      -
+// @version     1.0.3
+// @author      roysta
 // @description 06/04/2024, 20:39:29
 // ==/UserScript==
 
