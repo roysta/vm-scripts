@@ -3,9 +3,11 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.primewire.tf/*
 // @grant       none
-// @version     1.1.1
+// @version     1.1.2
 // @author      roysta
 // @description 21/02/2024, 22:39:25
 // ==/UserScript==
-const id = document.getElementsByClassName('episode-checkbox')
-id.parentElement.removeChild(id);
+
+for (e of document.getElementsByClassName('titles double')) {
+    e.parentElement.removeChild(e);
+};
