@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.primewire.tf/*
 // @grant       none
-// @version     1.1.3
+// @version     1.1.4
 // @author      roysta
 // @description 21/02/2024, 22:39:25
 // ==/UserScript==
