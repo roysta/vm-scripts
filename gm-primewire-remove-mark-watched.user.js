@@ -3,11 +3,11 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.primewire.tf/*
 // @grant       none
-// @version     1.1.2
+// @version     1.1.3
 // @author      roysta
 // @description 21/02/2024, 22:39:25
 // ==/UserScript==
 
-for (e of document.getElementsByClassName('titles double')) {
+for (e of document.getElementsByClassName('header_option')) {
     e.parentElement.removeChild(e);
 };
