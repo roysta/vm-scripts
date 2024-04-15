@@ -4,9 +4,9 @@
 // @match       https://srsone.wf/new-shows
 // @include     https://srsone.wf/new-shows/*
 // @grant       none
-// @version     1.1.1
+// @version     1.1.2
 // @author      roysta
-// @description 15/04/2024, 20:40:00
+// @description 15/04/2024, 20:41:00
 // ==/UserScript==
 
 const uriArr = document.documentURI.split('/');
