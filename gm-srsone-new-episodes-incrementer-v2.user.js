@@ -4,9 +4,9 @@
 // @match       https://srsone.wf/new-shows
 // @include     https://srsone.wf/new-shows/*
 // @grant       none
-// @version     1.1.2
+// @version     1.1.3
 // @author      roysta
-// @description 15/04/2024, 20:41:00
+// @description 15/04/2024, 20:42:00
 // ==/UserScript==
 
 const uriArr = document.documentURI.split('/');
@@ -21,6 +21,15 @@ const href = document.documentURI.replace(/(\/\d+)?$/,"");
 //console.log(`href:\t${href}`)
 let i1 = document.createElement('ul');
 let i2 = document.createElement('ul');
+
+const i11 = document.createElement('li')
+const i21 = document.createElement('li')
+
+i11.innerHTML = `<a class="current" href="${href}">All shows</a>`;
+i21.innerHTML = `<a class="current" href="${href}">All shows</a>`;
+
+i1.append(i11);
+i2.append(i21);
 
 for (let i = (item > 6 ? item - 5 : 1); i < (item > 6 ? item + 5 : 11); i+=1) {
     const li1 = document.createElement('li');
