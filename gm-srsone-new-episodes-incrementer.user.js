@@ -4,12 +4,12 @@
 // @match       https://topsrs.day/new-shows
 // @include     https://topsrs.day/new-shows/*
 // @grant       none
-// @version     1.1.0
+// @version     1.1.1
 // @author      roysta
 // @description 06/04/2024, 20:39:29
 // ==/UserScript==
 // 2024-04-30
-// changed srsone.wf to topsrs.day
+// 1.1.0->1.1.1 changed srsone.wf to topsrs.day
 
 
 const uriArr = document.documentURI.split('/');

@@ -4,12 +4,12 @@
 // @match       https://topsrs.day/new-shows
 // @include     https://topsrs.day/new-shows/*
 // @grant       none
-// @version     1.1.4
+// @version     1.1.5
 // @author      roysta
 // @description 17/04/2024, 20:42:00
 // ==/UserScript==
 // 2024-04-30
-// changed srsone.wf to topsrs.day
+// 1.1.4->1.1.5 changed srsone.wf to topsrs.day
 
 const uriArr = document.documentURI.split('/');
 let item = Number(uriArr[uriArr.length -1]);
