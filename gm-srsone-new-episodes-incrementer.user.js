@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name        srsone new episodes incrementer
 // @namespace   Violentmonkey Scripts
-// @match       https://srsone.wf/new-shows
-// @include     https://srsone.wf/new-shows/*
+// @match       https://topsrs.day/new-shows
+// @include     https://topsrs.day/new-shows/*
 // @grant       none
 // @version     1.1.0
 // @author      roysta
 // @description 06/04/2024, 20:39:29
 // ==/UserScript==
+// 2024-04-30
+// changed srsone.wf to topsrs.day
+
 
 const uriArr = document.documentURI.split('/');
 let item = Number(uriArr[uriArr.length -1]);
