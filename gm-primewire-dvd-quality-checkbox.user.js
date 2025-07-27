@@ -3,10 +3,16 @@
 // @namespace   Violentmonkey Scripts
 // @match       /^https://(?:www\.)primewire.(?:tf|mov)/*$/
 // @grant       none
-// @version     1.1.0
+// @version     1.1.1
 // @author      roysta
-// @description 25/11/2023, 23:57:16
+// @description 2025-07-27 10:38
 // ==/UserScript==
+
+// version 1.1.1
+// 2025-07-27 10:38:00
+// added regex to @match for vm
+// version 1.1.0
+// 25/11/2023, 23:57:16
 
 var myform = document.getElementById('filter-bar');
 if (myform) {
