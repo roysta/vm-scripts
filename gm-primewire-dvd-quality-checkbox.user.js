@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        primewire.tf DVD quality checkbox
 // @namespace   Violentmonkey Scripts
-// @match       https://www.primewire.tf/*
+// @match       /^https://(?:www\.)primewire.(?:tf|mov)/*$/
 // @grant       none
 // @version     1.1.0
 // @author      roysta
