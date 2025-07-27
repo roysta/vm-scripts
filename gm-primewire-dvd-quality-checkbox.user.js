@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name        primewire.tf DVD quality checkbox
 // @namespace   Violentmonkey Scripts
-// @match       /^https://(?:www\.)primewire.(?:tf|mov)/*$/
+// @match       /^https:[\\\/]{2}(?:www\.)?primewire\.(?:tf|mov)[\\\/].*$/
 // @grant       none
-// @version     1.1.1
+// @version     1.1.2
 // @author      roysta
-// @description 2025-07-27 10:38
+// @description 2025-07-27 11:15
 // ==/UserScript==
 
+// version 1.1.2
+// 2025-07-27 11:15
+// amended match regex
 // version 1.1.1
 // 2025-07-27 10:38:00
 // added regex to @match for vm
