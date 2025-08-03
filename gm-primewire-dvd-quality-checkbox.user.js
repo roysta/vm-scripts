@@ -1,16 +1,20 @@
 // ==UserScript==
 // @name        primewire.tf DVD quality checkbox
 // @namespace   Violentmonkey Scripts
-// @match       https://primewire.tf/
-// @match       https://www.primewire.tf/
-// @match       https://primewire.mov/
-// @match       https://www.primewire.mov/
+// @match       https://primewire.tf/*
+// @match       https://www.primewire.tf/*
+// @match       https://primewire.mov/*
+// @match       https://www.primewire.mov/*
 // @grant       none
-// @version     1.1.3
+// @version     1.1.4
 // @author      roysta
-// @description 2025-07-27 11:23
+// @description 2025-08-03 21:08
 // ==/UserScript==
 
+// version 1.1.4
+// 2025-08-03 21:08
+// appended '*' to match lines to ensure checkbox is visible
+//  on all pages.
 // version 1.1.3
 // 2025-07-27 11:23
 // discovered that regex are not allowed in @match's
