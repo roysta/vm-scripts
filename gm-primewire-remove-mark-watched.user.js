@@ -1,15 +1,21 @@
 // ==UserScript==
 // @name        primewire.tf remove 'Mark Watched' checkbox because it is in the way of the next episode button.
 // @namespace   Violentmonkey Scripts
-// @match       https://www.primewire.tf/*
-// @match       https://primewire.tf/*
 // @match       https://www.primewire.mov/*
 // @match       https://primewire.mov/*
+// @match       https://www.primewire.si/*
+// @match       https://primewire.si/*
+// @match       https://www.primewire.zip/*
+// @match       https://primewire.zip/*
 // @grant       none
-// @version     1.1.7
+// @version     1.1.8
 // @author      roysta
-// @description 2025-07-27 12:10 - Added more matches for .mov
+// @description 2026-03-25 updated current urls as per primewire.nexus
 // ==/UserScript==
+
+// version 1.1.8
+// 2026-03-25
+// removed .tf, added .si,.zip
 
 // version 1.1.7
 // 2025-07-27 12:10
